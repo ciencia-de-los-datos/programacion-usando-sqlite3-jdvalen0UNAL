@@ -21,4 +21,8 @@
 --  4  E  14  832.44  800  2016-11-22  0.39  EGFD
 --
 --  >>> Escriba su codigo a partir de este punto <<<
---  
+-- 
+-- Consulta para obtener los primeros cinco registros de la tabla `tbl1` ordenados por fecha
+SELECT * FROM tbl1 ORDER BY fecha_columna DESC LIMIT 5; 
+
+
