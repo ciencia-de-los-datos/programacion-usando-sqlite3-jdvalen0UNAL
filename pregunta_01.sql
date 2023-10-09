@@ -17,3 +17,9 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+-- Importar datos desde tbl1.csv a la tabla tbl1
+.mode csv
+.import tbl1.csv tbl1
+
+-- Consulta para obtener la suma del campo c12
+SELECT SUM(c12) FROM tbl1;
