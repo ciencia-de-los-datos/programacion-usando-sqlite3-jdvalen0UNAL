@@ -23,6 +23,7 @@
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
 -- Consulta para obtener los primeros cinco registros de la tabla `tbl1` ordenados por fecha
-SELECT * FROM tbl1 ORDER BY fecha_columna DESC LIMIT 5; 
+
+SELECT * FROM tbl1 ORDER BY c14 DESC LIMIT 5; 
 
 
