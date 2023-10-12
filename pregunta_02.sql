@@ -17,4 +17,7 @@
 --  0        30
 --
 --  >>> Escriba su codigo a partir de este punto <<<
--- 
+
+-- Consulta para contar la cantidad de registros en la tabla `tbl1`
+SELECT COUNT(*) AS "COUNT(*)" FROM tbl1;
+
